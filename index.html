@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jen Xiu | SEO Strategy & Performance</title>
+    <style>
+        :root {
+            --primary: #2c3e50;
+            --paypal: #0070ba;
+            --cashapp: #00d632;
+            --text-main: #333;
+            --bg-accent: #f4f7f6;
+        }
+        
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            line-height: 1.6; 
+            color: var(--text-main); 
+            max-width: 800px; 
+            margin: 40px auto; 
+            padding: 20px; 
+        }
+        
+        h1, h2 { color: var(--primary); margin-top: 0; }
+        
+        /* Profile Header Section */
+        .profile-header {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            margin-bottom: 20px;
+            border-bottom: 2px solid var(--bg-accent);
+            padding-bottom: 20px;
+        }
+        
+        .profile-pic {
+            width: 100px; /* Adjust size as needed */
+            height: 100px;
+            border-radius: 50%; /* Makes it circular */
+            object-fit: cover; /* Ensures image isn't stretched */
+            border: 3px solid var(--bg-accent);
+            background-color: #ccc; /* Placeholder background */
+        }
+        
+        .header-text h1 { margin-bottom: 5px; }
+        .header-text p { margin: 0; font-weight: bold; }
+
+        .contact-info { background: var(--bg-accent); padding: 15px; border-radius: 8px; margin-bottom: 30px; }
+        
+        .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 30px; }
+        ul { padding-left: 20px; }
+        
+        /* Button Styles */
+        .btn { 
+            padding: 12px 24px; 
+            text-decoration: none; 
+            border-radius: 5px; 
+            font-weight: bold; 
+            display: inline-block; 
+            color: white; 
+            text-align: center;
+            transition: opacity 0.2s;
+        }
+        .btn:hover { opacity: 0.9; }
+        .btn-paypal { background-color: var(--paypal); }
+        .btn-cashapp { background-color: var(--cashapp); }
+        
+        footer { margin-top: 40px; font-style: italic; border-top: 1px solid #ddd; padding-top: 20px; }
+        
+        /* Responsiveness */
+        @media (max-width: 600px) { 
+            .profile-header { flex-direction: column; text-align: center; }
+            .grid { grid-template-columns: 1fr; } 
+            .btn { width: 100%; box-sizing: border-box; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Updated Header with Placeholder Image -->
+    <header class="profile-header">
+        <!-- 
+          To update: Replace 'https://via.placeholder.com/100' 
+          with the actual URL or local path to your image file.
+          Recommended size is 100x100 or higher (aspect ratio 1:1).
+        -->
+        <img src="https://raw.githubusercontent.com/pflaquer/jennxiu/refs/heads/main/jennxiu.png" alt="Jen Xiu Portrait" class="profile-pic">
+        <div class="header-text">
+            <h1>Hi... :) I'm Jen Xiu</h1>
+            <p>SEO Strategy & Performance Marketing</p>
+        </div>
+    </header>
+
+    <div class="contact-info">
+        <strong>Contact:</strong> 929-398-5614 | <strong>LinkedIn:</strong> linkedin.com/in/jenxiu
+    </div>
+
+    <section>
+        <h2>Professional Profile</h2>
+
+        <p>Hi! Thanks for visiting my page :) Do you have a website or a business? I am a Data-driven developer and SEO specialist focusing on technical precision and authority-building. I view search as a systems-level challenge, ensuring your site architecture effectively bridges the gap between your business value and user intent.  You WILL see results!<br>
+
+        </p>
+    </section>
+
+    <div class="grid">
+        <section>
+            <h3>Core Competencies</h3>
+            <ul>
+                <li>Technical SEO & Schema</li>
+                <li>Content Intent Mapping</li>
+                <li>Off-Page Authority</li>
+                <li>Advanced Analytics (GA4/GSC)</li>
+            </ul>
+        </section>
+        <section>
+            <h3>Services</h3>
+            <ul>
+                <li>Full-Site Audits</li>
+                <li>Local SEO Domination</li>
+                <li>Monthly Growth Consulting</li>
+                <li>Content Gap Analysis</li>
+            </ul>
+        </section>
+    </div>
+
+    <section>
+        <h2>Prices</h2>
+        <p>Secure your full-site SEO audit for a flat fee of <strong>$50</strong>.  <br>All audits come with a free video consultation :)</p><br>
+                      <img src="https://raw.githubusercontent.com/pflaquer/jennxiu/refs/heads/main/jennxiu2.png" width="50%" height="50%" style="border-radius:20px"></img>
+        <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+            <!-- PayPal Link (Update with your specific PayPal.Me link) -->
+            <a href="https://paypal.me/YourHandle/50" target="_blank" class="btn btn-paypal">Pay $50 via PayPal</a>
+            
+            <!-- Cash App Link (Update with your $CashTag) -->
+            <a href="https://cash.app/$YourCashTag" target="_blank" class="btn btn-cashapp">Pay $50 via Cash App</a>
+        </div>
+    </section>
+
+    <footer>
+        "Precision in code, authority in content, results in growth."
+    </footer>
+
+</body>
+</html>
